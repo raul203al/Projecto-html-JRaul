@@ -3,13 +3,12 @@ body{
     overflow: hidden;
     background-color: red;
 }
-@media screen and (orientation:landscape){
+@media (orientation:landscape){
     #Portaretratos{
         display: flex;
         align-items: center;
         justify-content: center !important;
-        margin: auto;
-        padding-top: 3%;
+        margin: auto ;
 
         width: 1200px;
         height: 800px;
@@ -20,13 +19,12 @@ body{
     }
 }
 
-@media screen and (orientation:portrait){
+@media (orientation:portrait){
     #Portaretratos{
         display: flex;
         align-items: center;
         justify-content: center !important;
         margin: auto;
-        padding-top: 4%;
 
         width: 600px;
         height: 900px;
